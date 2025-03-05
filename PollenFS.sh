@@ -75,7 +75,7 @@ echo '{
   "ChromeOsReleaseChannelDelegated": "true",
   "WallpaperImage": "null",
   "SafeSitesFilterBehavior": "1",
-  "SafeBrowsingProtectionLevel": "1",
+  "SafeBrowsingProtectionLevel": "2",
   "DownloadRestrictions": "0",
   "ProxyMode": "system",
   "ProxyServerMode": "system",
