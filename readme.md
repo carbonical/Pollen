@@ -2,6 +2,9 @@
 
 >[!IMPORTANT]
 >Pollen is patched on ChromeOS R131 and above. <br />
+
+>[!NOTE]
+>This is not made by carbonical, it is made by MercuryWorkshop. I just changed the script a bit so that my blocker extensions do not get removed.
 <!--
 >Patches: <br />
 >https://chromiumdash.appspot.com/commit/313936b9fe8c343841378ffe5f33ad34de3bb3b7 <br />
