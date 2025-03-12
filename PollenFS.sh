@@ -18,7 +18,7 @@ echo "May Ultrablue Rest in Peace, o7"
 
 sleep 1
 
-mkdir -p /etc/opt/chrome/policies/managed
+mkdir -p /etc/opt/chromium/policies/managed
 echo '{
   "URLBlocklist": [],
   "SystemFeaturesDisableList": [],
@@ -83,7 +83,7 @@ echo '{
   "NetworkPredictionOptions": "0",
   "AllowedDomainsForApps": "",
   "DeviceUserAllowlist": ""
-}' > /etc/opt/chrome/policies/managed/pollen.json
+}' > /etc/opt/chromium/policies/managed/pollen.json
 
 echo ""
 echo "Pollen (RootFS) has been successfully applied!"
