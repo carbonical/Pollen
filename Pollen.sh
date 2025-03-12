@@ -19,7 +19,7 @@ echo "May Ultrablue rest in peace, o7."
 
 sleep 1
 
-mkdir -p /tmp/overlay/etc/opt/chrome/policies/managed
+mkdir -p /tmp/overlay/etc/opt/chromium/policies/managed
 echo '{
   "URLBlocklist": [],
   "SystemFeaturesDisableList": [],
@@ -84,7 +84,7 @@ echo '{
   "NetworkPredictionOptions": "0",
   "AllowedDomainsForApps": "",
   "DeviceUserAllowlist": ""
-}' > /tmp/overlay/etc/opt/chrome/policies/managed/policy.json
+}' > /tmp/overlay/etc/opt/chromium/policies/managed/policy.json
 cp -a -L /etc/* /tmp/overlay/etc 2> /dev/null
 mount --bind /tmp/overlay/etc /etc
 
