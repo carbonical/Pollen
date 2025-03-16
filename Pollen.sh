@@ -19,7 +19,7 @@ echo "May Ultrablue rest in peace, o7."
 
 sleep 1
 
-mkdir -p /tmp/overlay/etc/opt/chromium/policies/managed
+mkdir -p /tmp/overlay/etc/opt/chrome/policies/managed
 echo '{
   "URLBlocklist": [],
   "SystemFeaturesDisableList": [],
@@ -40,8 +40,8 @@ echo '{
   "SystemTerminalSshAllowed": "true",
   "SystemTimezone": "",
   "IsolatedAppsDeveloperModeAllowed": "true",
-  "ForceGoogleSafeSearch": "true",
-  "ForceYouTubeRestrict": "1",
+  "ForceGoogleSafeSearch": "false",
+  "ForceYouTubeRestrict": "0",
   "EasyUnlockAllowed": "true",
   "DisableSafeBrowsingProceedAnyway": "false",
   "DeviceAllowNewUsers": "true",
@@ -75,8 +75,8 @@ echo '{
   "BrowserLabsEnabled": "true",
   "ChromeOsReleaseChannelDelegated": "true",
   "WallpaperImage": "null",
-  "SafeSitesFilterBehavior": "1",
-  "SafeBrowsingProtectionLevel": "2",
+  "SafeSitesFilterBehavior": "0",
+  "SafeBrowsingProtectionLevel": "0",
   "DownloadRestrictions": "0",
   "ProxyMode": "system",
   "ProxyServerMode": "system",
@@ -84,7 +84,7 @@ echo '{
   "NetworkPredictionOptions": "0",
   "AllowedDomainsForApps": "",
   "DeviceUserAllowlist": ""
-}' > /tmp/overlay/etc/opt/chromium/policies/managed/policy.json
+}' > /tmp/overlay/etc/opt/chrome/policies/managed/policy.json
 cp -a -L /etc/* /tmp/overlay/etc 2> /dev/null
 mount --bind /tmp/overlay/etc /etc
 
