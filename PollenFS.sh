@@ -65,10 +65,10 @@ echo '{
   "LacrosAvailability": "user_choice",
   "WallpaperImage": null,
   "ArcPolicy": {
-    "playStoreMode": "ENABLED",
-    "installType": "FORCE_INSTALLED",
-    "playEmmApiInstallDisabled": false,
-    "dpsInteractionsDisabled": false
+      "dpsInteractionsDisabled": false,
+      "installType": "USER_CHOICE",
+      "playEmmApiInstallDisabled": false,
+      "playStoreMode": "ENABLED"
   },
   "ArcEnabled": true,
   "DnsOverHttpsMode": "automatic",
