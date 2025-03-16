@@ -1,13 +1,12 @@
 #!/bin/bash
 
-# Check if the script is run as root
 if [ $(id -u) -ne 0 ]; then
     echo "Run this script as root (sudo su)"
     exit
 fi
 
 echo "+##############################################+"
-echo "# Welcome To Pollen! (FydeOS Chromium)        #"
+echo "# Welcome To Pollen! (RootFS)                   #"
 echo "# The User Policy Editor                       #"
 echo "# -------------------------------------------- #"
 echo "# Developers:                                  #"
@@ -19,10 +18,7 @@ echo "May Ultrablue Rest in Peace, o7"
 
 sleep 1
 
-# Ensure the correct directory exists
-mkdir -p /etc/opt/chromium/policies/managed
-
-# Write the JSON policy configuration file
+mkdir -p /etc/opt/chrome/policies/managed
 echo '{
   "URLBlocklist": [],
   "SystemFeaturesDisableList": [],
@@ -44,7 +40,7 @@ echo '{
   "SystemTimezone": "",
   "IsolatedAppsDeveloperModeAllowed": "true",
   "ForceGoogleSafeSearch": "true",
-  "ForceYouTubeRestrict": "1",
+  "ForceYouTubeRestrict": "0",
   "EasyUnlockAllowed": "true",
   "DisableSafeBrowsingProceedAnyway": "false",
   "DeviceAllowNewUsers": "true",
@@ -87,8 +83,7 @@ echo '{
   "NetworkPredictionOptions": "0",
   "AllowedDomainsForApps": "",
   "DeviceUserAllowlist": ""
-}' > /etc/opt/chromium/policies/managed/pollen.json
+}' > /etc/opt/chrome/policies/managed/pollen.json
 
-# Final message
 echo ""
-echo "Pollen (FydeOS Chromium) policies have been successfully applied!"
+echo "Pollen (RootFS) has been successfully applied!"
