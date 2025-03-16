@@ -71,6 +71,7 @@ echo '{
     "playEmmApiInstallDisabled": false,
     "dpsInteractionsDisabled": false
   },
+  "ArcEnabled": true,
   "DnsOverHttpsMode": "automatic",
   "BrowserLabsEnabled": "true",
   "ChromeOsReleaseChannelDelegated": "true",
