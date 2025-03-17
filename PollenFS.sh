@@ -30,7 +30,7 @@ echo '{
   "AllowDinosaurEasterEgg": true,
   "IncognitoModeAvailability": 0,
   "AllowScreenLock": true,
-  "ExtensionInstallAllowlist": ["*", "fmgipooimbgbifabpmlfakkhhaihafdn"],
+  "ExtensionInstallAllowlist": ["*"],
   "ExtensionInstallBlocklist": [],
   "ExtensionSettings": null,
   "PasswordManagerEnabled": "true",
