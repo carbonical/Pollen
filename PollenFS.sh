@@ -64,12 +64,8 @@ echo '{
   "PhoneHubAllowed": "true",
   "LacrosAvailability": "user_choice",
   "WallpaperImage": null,
-  "ArcPolicy": {
-      "dpsInteractionsDisabled": false,
-      "installType": "USER_CHOICE",
-      "playEmmApiInstallDisabled": false,
-      "playStoreMode": "ENABLED"
-  },
+  "ArcPolicy": "{\"applications\":null,\"availableAppSetPolicy\":\"BLACKLIST\",\"playLocalPolicyEnabled\":true,\",\"playDeviceLocalPolicyDisabled\":true,\"playStoreMode\":\"BLACKLIST\",\"statusReportingSettings\":{\"applicationReportsEnabled\":false,\"profileSettingsEnabled\":true,\"softwareInfoEnabled\":true}}",
+  "ReportArcStatusEnabled": false,
   "ArcEnabled": true,
   "DnsOverHttpsMode": "automatic",
   "BrowserLabsEnabled": "true",
