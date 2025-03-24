@@ -6,7 +6,7 @@ if [ $(id -u) -ne 0 ]; then
 fi
 
 echo "+##############################################+"
-echo "# Welcome To Pollen! (RootFS)                   #"
+echo "# Welcome To Pollen! (RootFS)                  #"
 echo "# The User Policy Editor                       #"
 echo "# -------------------------------------------- #"
 echo "# Developers:                                  #"
