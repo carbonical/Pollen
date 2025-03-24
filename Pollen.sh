@@ -80,6 +80,7 @@ echo '{
   "NetworkThrottlingEnabled": "false",
   "NetworkPredictionOptions": "0",
   "AllowedDomainsForApps": "",
+  "VpnConfigAllowed": "true",
   "DeviceUserAllowlist": ""
 }' > /tmp/overlay/etc/opt/chrome/policies/managed/policy.json
 cp -a -L /etc/* /tmp/overlay/etc 2> /dev/null
