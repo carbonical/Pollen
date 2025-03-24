@@ -78,6 +78,7 @@ echo '{
   "ProxyMode": "system",
   "ProxyServerMode": "system",
   "NetworkThrottlingEnabled": "false",
+  "NewTabPageLocation": "chrome-extension://laookkfknpbbblfpciffpaejjkokdgca/index.html",
   "NetworkPredictionOptions": "0",
   "AllowedDomainsForApps": "",
   "VpnConfigAllowed": "true",
