@@ -80,8 +80,7 @@ echo '{
   "NetworkPredictionOptions": "0",
   "AllowedDomainsForApps": "",
   "VpnConfigAllowed": "true",
-  "DeviceUserAllowlist": "",
-  "NewTabPageLocation": ""
+  "DeviceUserAllowlist": ""
 }' > /etc/opt/chrome/policies/managed/pollen.json
 
 echo ""
