@@ -79,7 +79,8 @@ echo '{
   "NetworkThrottlingEnabled": "false",
   "NetworkPredictionOptions": "0",
   "AllowedDomainsForApps": "",
-  "VpnConfigAllowed": "true"
+  "VpnConfigAllowed": "true",
+  "DeviceUserAllowlist": ""
 }' > /etc/opt/chrome/policies/managed/pollen.json
 
 echo ""
